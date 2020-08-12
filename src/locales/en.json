@@ -1,0 +1,311 @@
+{
+  "dashboard": {
+    "completedTasks": "Completed Tasks",
+    "dailySales": "Daily Sales",
+    "performance": "Proxy Performance",
+    "simpleTable": "Simple Table",
+    "apiProxyDetails": {
+      "heading":"API Proxy Details",
+      "api": {
+        "from": "/ishan",
+        "to": null,
+        "version": "staging-fsntest",
+        "revision": "2"
+    },
+    "operation": {
+        "method": "GET",
+        "uriTemplate": "/1234s"
+    },
+    "user": "-",
+    "product": "-"
+    },
+    "chartCategories": [
+      "Inbound",
+      "Backend",
+      "Outbound"
+    ],
+    "inbound": "inbound({count})",
+    "outbound" :"outbound({count})",
+    "today": "Today",
+    "dropdown": {
+      "action": "Action",
+      "anotherAction": "Another Action",
+      "somethingElse": "Something else"
+    },
+    "backendRequestHeaders": [
+      {
+          "name": "Host",
+          "value": "23144"
+      },
+      {
+          "name": "Ocp-Apim-Subscription-Key",
+          "value": "1234"
+      },
+      {
+          "name": "Authorization",
+          "value": "Bearer 12344"
+      },
+      {
+          "name": "Postman-Token",
+          "value": "cb89b4e6-b97e-d63f-3058-6c34c0361e50"
+      },
+      {
+          "name": "Sec-Fetch-Site",
+          "value": "none"
+      },
+      {
+          "name": "Sec-Fetch-Mode",
+          "value": "cors"
+      },
+      {
+          "name": "Sec-Fetch-Dest",
+          "value": "empty"
+      },
+      {
+          "name": "Cache-Control",
+          "value": "no-cache"
+      },
+      {
+          "name": "Accept",
+          "value": "*/*"
+      },
+      {
+          "name": "Accept-Encoding",
+          "value": "gzip,deflate,br"
+      },
+      {
+          "name": "Accept-Language",
+          "value": "en-US,en;q=0.9"
+      },
+      {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+      },
+      {
+          "name": "Request-Id",
+          "value": "123"
+      },
+      {
+          "name": "Request-Context",
+          "value": "appId=123"
+      },
+      {
+          "name": "X-Forwarded-For",
+          "value": "342"
+      }
+  ],
+    "inboundRequestHeaders":  [
+                            {
+                                "name": "Ocp-Apim-Subscription-Key",
+                                "value": ""
+                            },
+                            {
+                                "name": "Postman-Token",
+                                "value": "cb89b4e6-b97e-d63f-3058-6c34c0361e50"
+                            },
+                            {
+                                "name": "Sec-Fetch-Site",
+                                "value": "none"
+                            },
+                            {
+                                "name": "Sec-Fetch-Mode",
+                                "value": "cors"
+                            },
+                            {
+                                "name": "Sec-Fetch-Dest",
+                                "value": "empty"
+                            },
+                            {
+                                "name": "Cache-Control",
+                                "value": "no-cache"
+                            },
+                            {
+                                "name": "Connection",
+                                "value": "keep-alive"
+                            },
+                            {
+                                "name": "Accept",
+                                "value": "*/*"
+                            },
+                            {
+                                "name": "Accept-Encoding",
+                                "value": "gzip,deflate,br"
+                            },
+                            {
+                                "name": "Accept-Language",
+                                "value": "en-US,en;q=0.9"
+                            },
+                            {
+                                "name": "Host",
+                                "value": "ibm.com"
+                            },
+                            {
+                                "name": "User-Agent",
+                                "value": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+                            }
+                        ],
+                        "outboundRequestHeaders":  [
+                          {
+                              "name": "Ocp-Apim-Subscription-Key",
+                              "value": ""
+                          },
+                          {
+                              "name": "Postman-Token",
+                              "value": "cb89b4e6-b97e-d63f-3058-6c34c0361e50"
+                          },
+                          {
+                              "name": "Sec-Fetch-Site",
+                              "value": "none"
+                          },
+                          {
+                              "name": "Sec-Fetch-Mode",
+                              "value": "cors"
+                          },
+                          {
+                              "name": "Sec-Fetch-Dest",
+                              "value": "empty"
+                          },
+                          {
+                              "name": "Cache-Control",
+                              "value": "no-cache"
+                          },
+                          {
+                              "name": "Connection",
+                              "value": "keep-alive"
+                          },
+                          {
+                              "name": "Accept",
+                              "value": "*/*"
+                          },
+                          {
+                              "name": "Accept-Encoding",
+                              "value": "gzip,deflate,br"
+                          },
+                          {
+                              "name": "Accept-Language",
+                              "value": "en-US,en;q=0.9"
+                          },
+                          {
+                              "name": "Host",
+                              "value": "ibm.com"
+                          },
+                          {
+                              "name": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+                          }
+                      ],
+   "usersTable": {
+      "title": "Simple Table",
+      "columns": [
+        "name",
+        "description",
+        "policy scope",
+        "policy section"
+      ],
+      "data": [
+        {
+          "name":"choose",
+          "description":"The choose policy applies enclosed policy statements based on the outcome of evaluation of Boolean expressions, similar to an if-then-else or a switch construct in a programming language",
+          "policy scope":"all scope",
+          "policy section":"inbound, outbound, backend, on-error"
+        },
+        {
+          "name":"forward-request",
+          "description":"The forward-request policy forwards the incoming request to the backend service specified in the request context.",
+          "policy scope":"all scope",
+          "policy section":"backend"
+        },
+         {
+          "name":"limit-concurrency",
+          "description":"The limit-concurrency policy prevents enclosed policies from executing by more than the specified number of requests at any time. Upon exceeding that number, new requests will fail immediately with 429 Too Many Requests status code",
+          "policy scope":"all scope",
+          "policy section":"backend"
+        },
+        {
+          "name":"forward-request",
+          "description":"The forward-request policy forwards the incoming request to the backend service specified in the request context.",
+          "policy scope":"all scope",
+          "policy section":"inbound, outbound, backend, on-error"
+        }
+      ]
+    },
+    "inboundsteps": [
+      {
+        "title": "set-variable",
+        "description": "Expression evaluated successfully",
+        "timestamp":"2020-07-19T19:44:39.9253729Z",
+        "elapsed":"0:00:00.2645747",
+        "done": false
+      },
+      {
+        "title": "set-variable",
+        "description": "Expression evaluated successfully",
+        "timestamp":"2020-07-19T19:44:39.9253729Z",
+        "elapsed":"0:00:00.2645747",
+        "done": true
+      },
+      {
+        "title": "cors",
+        "description": "Fifty percent of all respondents said they would be more likely to shop at a company",
+        "done": false
+      },
+      {
+        "title": "cache-lookup-value",
+        "description": "Expression was successfully evaluated.",
+        "timestamp":"2020-07-19T19:44:39.9253729Z",
+        "elapsed":"0:00:00.2645747",
+        "done": false
+      },
+      {
+        "title": "cache-lookup-value",
+        "description": "Cache lookup resulted in a miss, provided default value will be assigned to variable instead.",
+        "timestamp":"2020-07-19T19:44:39.9253729Z",
+        "elapsed":"0:00:00.2645747",
+        "done": false
+      },
+      {
+        "title": "authentication-managed-identity",
+        "description": "Managed identity token is added to storageToken context variable.",
+        "timestamp":"2020-07-19T19:44:39.9253729Z",
+        "elapsed":"0:00:00.2645747",
+        "done": false
+      },
+      {
+        "title": "set-method",
+        "description": "Request method was set to GET",
+        "timestamp":"2020-07-19T19:44:39.9253729Z",
+        "elapsed":"0:00:00.2645747",
+        "done": false
+      },
+      {
+        "title": "set-header",
+        "description": "Expression was successfully evaluated.",
+        "timestamp":"2020-07-19T19:44:39.9253729Z",
+        "elapsed":"0:00:00.2645747",
+        "done": false
+      }
+    ],
+    "outboundsteps": [
+      {
+        "title": "transfer-response",
+        "description": "Response headers have been sent to the caller",
+        "timestamp":"2020-07-19T19:44:39.9253729Z",
+        "elapsed":"0:00:00.2645747",
+        "done": false
+      }
+    ]
+  },
+
+  "sidebar": {
+    "title": "Creative Tim",
+    "shortTitle": "CT",
+    "dashboard": "dashboard",
+    "icons": "Icons",
+    "maps": "Maps",
+    "notifications": "Notifications",
+    "userProfile": "User Profile",
+    "tableList": "Table List",
+    "typography": "Typography",
+    "rtlSupport": "RTL Support"
+  }
+}
